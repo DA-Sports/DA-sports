@@ -6,64 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/icons/icon_trans.png" type="image/png"/>
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <title>DA Games</title>
 </head>
 <body>
-    <!--
-        Background Color 1: #160232
-        Background Color 2: #240232
-        Background Color 3: #501469
-    -->
-    <div class="Opener">
-        <div class="Heading">
-            DA Games
-        </div>
-        <div class="about">
-            <div class="video">
+    <div class="Header">
+        <div class="Left">
+            <div class="Video">
                 <video src="assets/icons/DA.mp4" autoplay muted loop></video>
             </div>
-            <div class="topic">
-                <div class="Heading">
-                    Ultimate home of Javascript Games
+            <div class="Head">
+                <div class="Title">
+                    D A GAMES
                 </div>
-                <div class="details">
-                    Welcome to DA Games. The home of Javascript Games. We got a wide variety of Games made with Javascript. You can play them. Also we allow creators to contribute and make games as well.
+                <div class="Subtitle">
+                    Home of JS Games
                 </div>
             </div>
         </div>
+        <div class="Right">
+            <button onclick="show_game()">Games</button>
+            <button onclick="show_developer()">Developers</button>
+            <button onclick="show_upload()">Upload Games</button>
+        </div>
     </div>
-    <nav>
-        <button onclick="show_game()">Games</button>
-        <button onclick="show_upload()">Upload</button>
-        <button onclick="show_developer()">Developers</button>
-    </nav>
 
     <div class="Games" id="game">
-        <div class="Heading">Games</div>
-        <div class="rows">
+        <div class="Header">
+            GAMES
+        </div>
+        <div class="cards">
+            <!-- TIC TAC TOE -->
             <div class="Card">
+                <div class="Heading">
+                    Tic Tac Toe
+                </div>
                 <div class="Image">
                     <img src="assets/icons/tic_tac_toe.png">
                 </div>
-                <div class="Details">
-                    Tic Tac Toe
-                </div>
-                <a href="game/tic_tac_toe/index.html"><button>play</button></a>
+                <a href="game/tic_tac_toe/index.html"><button>PLAY</button></a>
             </div>
+            <!-- TIC TAC TOE END -->
+
+        </div>
+    </div>
+
+    <div class="Developers" id="developer">
+        <div class="Header">
+            Developers
+        </div>
+        <div class="about">
         </div>
     </div>
 
     <div class="Upload" id="upload">
-        <div class="Heading">Upload</div>
-        <div class="Detail">
-            Coming Soon
+        <div class="Header">
+            Upload
         </div>
-    </div>
-
-    <div class="Developer" id="developer">
-        <div class="Heading">Developers</div>
-        <div class="Detail">
-            Coming Soon
+        <div class="about">
         </div>
     </div>
 
