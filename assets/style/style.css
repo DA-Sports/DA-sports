@@ -1,0 +1,171 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: #000000;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+.Opener .Heading
+{
+    color: aqua;
+    font-style: italic;
+    font-size: 500%;
+    text-align: center;
+}
+.Opener .about
+{
+    display: flex;
+}
+.Opener .about .video
+{
+    width: 30%;
+    margin-left: 5%;
+}
+.Opener .about video
+{
+    width: 100%;
+}
+.Opener .about .topic .Heading
+{
+    color: red;
+    font-size: 300%;
+    padding-top: 3%;
+    font-style: normal;
+}
+.Opener .about .topic .details
+{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size:150%;
+    border-top: 1px solid white;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+nav
+{
+    margin-top: 1%;
+    background-color: #160232;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+nav button
+{
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 100%;
+    border: 1px solid white;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav button:hover
+{
+    background-color: #501469;
+}
+
+.Games .Heading
+{
+    margin-top: 1%;
+    color: #501469;
+    font-size: 300%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5%;
+}
+.Games .rows
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Games .rows .Card
+{
+    margin: 2%;
+    padding: 2%;
+    background-color: #160232;
+    width: 15%;
+    text-align: center;
+}
+.Games .rows .Card .Image
+{
+    width: 100%;
+}
+.Games .rows .Card .Image img
+{
+    width: 100%;
+}
+.Games .rows .Card .Details
+{
+    color: white;
+    font-size: 200%;
+}
+.Games .rows .Card button
+{
+    border: none;
+    color: white;
+    background-color: #501469;
+    width: 50%;
+    font-size: 150%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.Games .rows .Card button:hover
+{
+    background-color: green;
+}
+
+.Upload
+{
+    display: none;
+}
+.Upload .Heading
+{
+    margin-top: 1%;
+    color: #501469;
+    font-size: 300%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5%;
+}
+.Upload .Detail
+{
+    color: red;
+    text-align: center;
+    font-size: 300%;
+}
+
+.Developer
+{
+    display: none;
+}
+.Developer .Heading
+{
+    margin-top: 1%;
+    color: #501469;
+    font-size: 300%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5%;
+}
+.Developer .Detail
+{
+    color: red;
+    text-align: center;
+    font-size: 300%;
+}

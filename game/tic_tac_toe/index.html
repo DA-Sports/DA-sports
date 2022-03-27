@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="../../assets/icons/tic_tac_toe.png" type="image/png">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="Head">
+        <div class="Header">
+            Tic Tac Toe
+        </div>
+        <div class="Subheader">
+            Player<span class="Color-change"> vs </span>Player
+        </div>
+    </div>
+    <div class="form" id="form">
+        <input type="text" placeholder="Player 1" id="p1"> <br>
+        <input type="text" placeholder="Player 2" id="p2"> <br>
+        <button onclick="initialize()">Play</button>
+    </div>
+    <div class="Final" id="Final">
+        <div class="Win" id="Win"></div>
+        <button onclick="start()">Restart</button>
+    </div>
+    <div class="Game" id="Game">
+        <div class="row">
+            <div class="button" id="a0" onclick="put('a0')"></div>
+            <div class="button" id="a1" onclick="put('a1')"></div>
+            <div class="button" id="a2" onclick="put('a2')"></div>
+        </div>
+        <div class="row">
+            <div class="button" id="b0" onclick="put('b0')"></div>
+            <div class="button" id="b1" onclick="put('b1')"></div>
+            <div class="button" id="b2" onclick="put('b2')"></div>
+        </div>
+        <div class="row">
+            <div class="button" id="c0" onclick="put('c0')"></div>
+            <div class="button" id="c1" onclick="put('c1')"></div>
+            <div class="button" id="c2" onclick="put('c2')"></div>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="assets/index.js"></script>
+</body>
+</html>

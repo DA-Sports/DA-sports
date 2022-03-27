@@ -1,0 +1,144 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: rgb(15, 0, 43);
+}
+.Head
+{
+    text-align: center;
+    padding: 1%;
+    border-bottom: 0.5px solid rgb(248, 207, 129);
+}
+.Head .Header
+{
+    font-style: italic;
+    font-size: 500%;
+    color: orange;
+}
+.Head .Subheader
+{
+    color: white;
+    font-size: 200%;
+}
+.Head .Subheader .Color-change
+{
+    color: orange;
+}
+.form
+{
+    display: block;
+    text-align: center;
+    padding: 1%;
+}
+.form input
+{
+    font-size: 200%;
+    margin: 1%;
+    padding: 1%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid rgb(248, 207, 129);
+    color:white;
+}
+.form button
+{
+    margin-top: 2%;
+    background-color: rgb(255, 166, 0, 0.9);
+    border: none;
+    font-size: 200%;
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.form button:hover
+{
+    background-color: rgb(255, 166, 0, 1);
+}
+.Game
+{
+    display: none;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+.Game .row
+{
+    display: flex;
+}
+.Game .row .button
+{
+    border: 1px solid white;
+    width: 100%;
+    height: 100px;
+    font-size: 500%;
+    text-align: center;
+}
+#a0, #a1, #a2
+{
+    border-top: none;
+}
+#a0, #b0, #c0
+{
+    border-left: none;
+}
+#a2, #b2, #c2
+{
+    border-right: none;
+}
+#c2, #c1, #c0
+{
+    border-bottom: none;
+}
+marquee
+{
+    color: white;
+    font-size: 200%;
+    margin-top: 4%;
+}
+.Final
+{
+    display: none;
+    color: orange;
+    border: 5px solid orange;
+    font-size: 300%;
+    text-align: center;
+    background-color: rgba(1,1,1,0.9);
+    position:absolute;
+    z-index: 1;
+    width: 50%;
+    margin-left: 24.5%;
+    margin-top: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.Final button
+{
+    margin-top: 2%;
+    background-color: rgb(255, 166, 0, 0.9);
+    border: none;
+    font-size: 50%;
+    width: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.Final button:hover
+{
+    background-color: rgb(255, 166, 0, 1);
+}
+@media(max-width:467px)
+{
+    .Game
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+    }   
+    .Final
+    {
+        font-size: 200%;
+    }
+}
