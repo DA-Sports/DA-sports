@@ -159,6 +159,68 @@ body
 .Developers .about
 {
     border-top: 1px solid var(--orange);
+    display: flex;
+    padding: 2%;
+    justify-content: center ;
+}
+.Developers .about .Col 
+{
+    color: white;
+    border: 1px solid var(--orange);
+    width: 25%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+.Developers .about .Col:hover
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Developers .about .Col .Image
+{
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.Developers .about .Col .Image img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+.Developers .about .Col .Name
+{
+    color: var(--orange);
+    text-align: center;
+    border-bottom: 1px solid var(--orange);
+    font-family: 'VT323', monospace;
+    font-size: 200%;
+}
+.Developers .about .Col .Detail
+{
+    padding-left: 10%;
+    padding-top: 1%;
+    font-family: 'Courier Prime', monospace;
+    font-size: 80%;
+}
+.Developers .about .Col .Detail .bullet
+{
+    color: var(--orange);
+}
+.Developers .about .Col .Detail .icon_area
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Developers .about .Col .Detail .icon_area a
+{
+    width: 10%;
+    margin-right: 15%;
+}
+.Developers .about .Col .Detail .icon_area a img
+{
+    width: 100%;
 }
 
 .Upload
