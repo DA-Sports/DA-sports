@@ -6,71 +6,57 @@
 body
 {
     background-color: black;
-}
-.Heading
-{
-    color: white;
-    font-size: 300%;
     text-align: center;
-    padding-top: 1%;
+}
+.Head
+{
+    font-size: 300%;
+    color: green;
 }
 .Subheading
 {
-    color: yellowgreen;
-    font-size: 150%;
-    text-align: center;
+    font-size: 100%;
+    color: red;
 }
-.Light-area
+.Buttons
 {
-    width: 100%;
     display: flex;
     justify-content: center;
-    padding-top:1%;
-    padding-bottom: 1%;
 }
-.Light-area .Light
+.Buttons button
 {
-    width: 22%;
-    height: 300px;
-    background-color: none;
+    width: 90PX;
+    height: 90px;
+    border-radius: 100%;
     border: 1px solid white;
-    border-radius: 50%;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin: 0.2%;
 }
-.buttons
+#st
 {
-    display: flex;
-    justify-content: center;
-}
-.buttons button
-{
-    font-size: 300%;
-    width: 15%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    height: 200px;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
     background-color: green;
-    border: none;
+    color: white;
+    margin-top: 2%;
+    border:none;
+    border-radius: 100%;
 }
-
-@media(max-width:370px)
+#st:disabled
 {
-    .Subheading
+    background-color: red;
+}
+@media(max-width:480px)
+{
+    .Buttons button
     {
-        font-size: 100%;
-    }
-    .buttons button
-    {
-        width: 40%;
-        height: 150px;
-    }
-    .Light-area
-    {
-        height: 200px;
-    }
-    .Light-area .Light
-    {
-        height: 200px;
-        width: 200px;
+        width: 70px;
+        height: 70px;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
     }
 }
